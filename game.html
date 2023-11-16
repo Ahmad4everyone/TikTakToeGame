@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <p id="para">
+            Tap on the box to begin the game!<br><br>
+            The 1st player is <b style="color: red;">Player X</b> & the 2nd player is <b style="color: green;">Player O</b>.</p>
+            <div class="div">
+                <div class="row">
+                    <input type="text" id="b1" class="ola" onclick="ans_1(); answer()" readonly>
+                    <input type="text" id="b2" class="ola" onclick="ans_2(); answer()" readonly>
+                    <input type="text" id="b3" class="ola" onclick="ans_3(); answer()" readonly>
+                </div>
+                <div class="row">
+                    <input type="text" id="b4" class="ola" onclick="ans_4(); answer()" readonly>
+                    <input type="text" id="b5" class="ola" onclick="ans_5(); answer()" readonly>
+                    <input type="text" id="b6" class="ola" onclick="ans_6(); answer()" readonly>
+                </div>
+                <div class="row">
+                    <input type="text" id="b7" class="ola" onclick="ans_7(); answer()" readonly>
+                    <input type="text" id="b8" class="ola" onclick="ans_8(); answer()" readonly>
+                    <input type="text" id="b9" class="ola" onclick="ans_9(); answer()" readonly>
+                </div>
+
+            </div>
+            <br><br><br>
+            <button id="btn" onclick="result()">
+                Reset
+            </button>
+            <br><br>
+            <p id="ade"></p>
+        </div>
+    
+</body>
+<script src="./game.js"></script>
+</html>
