@@ -260,7 +260,7 @@ else if((b1 == "X" || b1 == "0") &&(b2 == "X" || b2 == "O") && (b3 == "X" || b3 
 
 else{
     if(flag == 1){
-        document.getElementById("ade").innerHTML = "Player X playing next"
+        document.getElementById("ade").innerHTML = "Player X is playing next"
     }
     else{
         document.getElementById("ade").innerHTML = "Player O is next to play"
